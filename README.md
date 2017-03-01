@@ -1,6 +1,6 @@
 # javatasks
 
-This is a repo for my Java fiddelings.
+This is a repo for my Java experiments.
 
 
 
