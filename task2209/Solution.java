@@ -59,8 +59,8 @@ public class Solution {
 //    Simple algorithm:
 //    - Start with first word, put it into StringBuilder.
 //    - Iterate over the rest of the words, add whatever
-//      is possible to the left or to the right of the String Builder.
-//      ("or to the right" is the key here).
+//      is possible to the right or to the left of the String Builder.
+//      ("or to the left" is the key here).
 //    - Iterate again until nothing could be added.
 //    - Add the rest to the end of the string builder.
 //    - Success!
