@@ -1,3 +1,5 @@
+package com.javarush.task.task22.task2209;
+
 import java.io.*;
 
 /*
@@ -88,7 +90,7 @@ public class Solution {
           if (firstChar(words[i]) == strLastChar) {
             sb.append(" " + words[i]);
             words[i] = "";
-            strLastChar = Character.toUpperCase(sb.charAt(0));
+            strLastChar = Character.toUpperCase(sb.charAt(sb.length() - 1));
             addedCount++;
           } else if (lastChar(words[i]) == strFirstChar) {
             sb.insert(0, words[i] + " ");
