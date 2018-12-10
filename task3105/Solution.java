@@ -98,7 +98,7 @@ public class Solution {
    */
 
   private static class ByteArray {
-    private byte[] data;
+    private final byte[] data;
     public ByteArray(byte[] data) {
       this.data = data;
     }
